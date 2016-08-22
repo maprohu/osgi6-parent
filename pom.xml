@@ -12,6 +12,9 @@
         <akka-stream.version>2.0.4</akka-stream.version>
 
         <scala-ext.version>1.0.3</scala-ext.version>
+
+        <osgi6-libs.version>1.0.10-SNAPSHOT</osgi6-libs.version>
+        <osgi6-geoserver.version>1.0.0</osgi6-geoserver.version>
     </properties>
 
     <build>
@@ -154,6 +157,11 @@
             </dependency>
             <dependency>
                 <groupId>com.typesafe.akka</groupId>
+                <artifactId>akka-http-xml-experimental_2.11</artifactId>
+                <version>${akka-stream.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.typesafe.akka</groupId>
                 <artifactId>akka-actor_2.11</artifactId>
                 <version>${akka.version}</version>
             </dependency>
@@ -196,6 +204,104 @@
                 <groupId>org.scala-lang</groupId>
                 <artifactId>scala-compiler</artifactId>
                 <version>2.11.8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.scala-sbt</groupId>
+                <artifactId>io_2.11</artifactId>
+                <version>1.0.0-M3</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lihaoyi</groupId>
+                <artifactId>upickle_2.11</artifactId>
+                <version>0.4.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.typesafe.slick</groupId>
+                <artifactId>slick_2.11</artifactId>
+                <version>3.1.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.scala-lang.modules</groupId>
+                <artifactId>scala-pickling_2.11</artifactId>
+                <version>0.10.1-java6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.osgi</groupId>
+                <artifactId>org.osgi.core</artifactId>
+                <version>5.0.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-common</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-scalarx</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-h2gis</artifactId>
+                <version>1.0.10-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-multi-api</artifactId>
+                <version>1.0.10-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-akka-http-multi</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-lib-admin</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-lib-multi</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-actor</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-akka-slf4j</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-lib-h2gis</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6</groupId>
+                <artifactId>osgi6-akka-stream</artifactId>
+                <version>${osgi6-libs.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6-geoserver</groupId>
+                <artifactId>osgi6-geoserver-core</artifactId>
+                <version>${osgi6-geoserver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6-geoserver</groupId>
+                <artifactId>osgi6-geoserver-geotools</artifactId>
+                <version>${osgi6-geoserver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>osgi6-geoserver</groupId>
+                <artifactId>osgi6-geoserver-h2</artifactId>
+                <version>${osgi6-geoserver.version}</version>
             </dependency>
 
         </dependencies>
