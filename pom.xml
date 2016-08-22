@@ -253,11 +253,7 @@
                 <artifactId>osgi6-h2gis</artifactId>
                 <version>1.0.10-SNAPSHOT</version>
             </dependency>
-            <dependency>
-                <groupId>osgi6</groupId>
-                <artifactId>osgi6-multi-api</artifactId>
-                <version>1.0.10-SNAPSHOT</version>
-            </dependency>
+
             <dependency>
                 <groupId>osgi6</groupId>
                 <artifactId>osgi6-akka-http-multi</artifactId>
