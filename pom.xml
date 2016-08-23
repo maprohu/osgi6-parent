@@ -13,7 +13,7 @@
 
         <scala-ext.version>1.0.3</scala-ext.version>
 
-        <osgi6-libs.version>1.0.10</osgi6-libs.version>
+        <osgi6-libs.version>1.0.11-SNAPSHOT</osgi6-libs.version>
     </properties>
 
     <build>
