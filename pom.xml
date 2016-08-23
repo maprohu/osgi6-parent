@@ -14,7 +14,7 @@
         <scala-ext.version>1.0.3</scala-ext.version>
 
         <osgi6-libs.version>1.0.10</osgi6-libs.version>
-        <osgi6-geoserver.version>1.0.0</osgi6-geoserver.version>
+        <osgi6-geoserver.version>1.0.1-SNAPSHOT</osgi6-geoserver.version>
     </properties>
 
     <build>
