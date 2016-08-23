@@ -14,7 +14,6 @@
         <scala-ext.version>1.0.3</scala-ext.version>
 
         <osgi6-libs.version>1.0.10</osgi6-libs.version>
-        <osgi6-geoserver.version>1.0.1-SNAPSHOT</osgi6-geoserver.version>
     </properties>
 
     <build>
@@ -282,21 +281,6 @@
                 <groupId>osgi6</groupId>
                 <artifactId>osgi6-akka-stream</artifactId>
                 <version>${osgi6-libs.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>osgi6-geoserver</groupId>
-                <artifactId>osgi6-geoserver-core</artifactId>
-                <version>${osgi6-geoserver.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>osgi6-geoserver</groupId>
-                <artifactId>osgi6-geoserver-geotools</artifactId>
-                <version>${osgi6-geoserver.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>osgi6-geoserver</groupId>
-                <artifactId>osgi6-geoserver-h2</artifactId>
-                <version>${osgi6-geoserver.version}</version>
             </dependency>
 
         </dependencies>
